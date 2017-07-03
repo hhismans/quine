@@ -1,0 +1,1 @@
+let () = let out = open_out "Grace_kid.ml" in (fun p -> Printf.fprintf out p (string_of_format p)) "let () = let out = open_out \"Grace_kid.ml\" in (fun p -> Printf.fprintf out p (string_of_format p)) %S;;\n";;
